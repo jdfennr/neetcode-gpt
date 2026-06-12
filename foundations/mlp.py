@@ -18,6 +18,6 @@ class Solution:
                 enter = np.maximum(0, enter)
 
         
-        return enter
+        return np.round(enter, 5)
 
 
